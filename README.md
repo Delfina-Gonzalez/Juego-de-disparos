@@ -2,9 +2,11 @@
 
 **Delfina Gonzalez, DNI 37358917 Legajo 18066/9**
 
-## >>>>> Organizacion del proyecto. En este repositorio se encuentran los siguientes documentos:
+## >>>>> Organización del proyecto. 
 
-![Esquema de los directorios](C:\Users\MONSO\OneDrive\Escritorio\image.jpg)
+En este repositorio se encuentran los siguientes documentos:
+
+![Image](https://github.com/user-attachments/assets/ac43c293-6a9c-4b05-b56a-dd5626d42ad5)
 
 ## >>>>> Para ejecutar este proyecto, sigue los siguientes pasos:
 
@@ -12,7 +14,9 @@
 
 - Accede al directorio del proyecto: cd Ejercicio10Practica2
 
-- Crea un entorno virtual (opcional pero recomendado), 2 pasos: python -m venv venv y luego, source venv/bin/activate (en Windows: venv\Scripts\activate)
+- Crea un entorno virtual (opcional pero recomendado): python -m venv venv
+
+- Activa el entorno virtual: source venv/bin/activate (o en Windows: venv\Scripts\activate)
 
 - Instala las dependencias necesarias: pip install -r requirements.txt
 
