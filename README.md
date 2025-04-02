@@ -1,3 +1,5 @@
+***Para ver en un mejor formato, verlo en modo CODE ***
+
 Proyecto: Actividad 10
 
 Delfina Gonzalez, DNI 37358917 Legajo 18066/9
