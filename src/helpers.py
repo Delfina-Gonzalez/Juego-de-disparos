@@ -7,7 +7,7 @@ player_scores = {}
 # Función para procesar cada ronda y calcular los puntajes
 def calculate_round_scores(round):
 
-    # Creamos un diccionario para guardar los puntajes acumulados de la ronda
+    # Creamos un diccionario para guardar los puntajes acumulados de la ronda para MVP
     round_results = {}
 
     # Para cada jugador, calculamos puntajes y acumulamos kills, assists y deaths
