@@ -35,9 +35,6 @@ def calculate_round_scores(round):
 
         # Guardamos el puntaje total de la ronda para este jugador
         round_results[player] = score_total
-
-        # Guardamos el puntaje total de la ronda para este jugador para calcular el MVP
-        round_results[player] = score_total
                        
     # Finaliza la ronda
 
