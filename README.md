@@ -36,10 +36,14 @@ pip install -r requirements.txt
 
 python src/main.py
 
->>>>> Usos
+>>>>> Abrir el Notebook
 
-notebooks/Ej10.ipynb: Contiene el análisis y los resultados en un formato interactivo.
+Para abrir el notebook Ej10.ipynb, sigue estos pasos:
 
-src/main.py: Es el script principal que ejecuta el programa.
+Accede al directorio del proyecto: cd Ejercicio10Practica2
 
-src/helpers.py: Contiene funciones auxiliares utilizadas en el código.
+Activa el entorno virtual (si lo creaste): source venv/bin/activate  # En Windows: venv\Scripts\activate
+
+Inicia Jupyter Notebook: jupyter notebook
+
+Abre el archivo Ej10.ipynb desde la interfaz web de Jupyter.
