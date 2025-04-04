@@ -24,7 +24,15 @@ En este repositorio se encuentran los siguientes documentos:
 
 ## >>>>> Pasos para abrir el Notebook
 
-Para abrir y ejecutar un archivo .ipynb en Visual Studio Code, sigue estos pasos:
+**Para abrirlo en jupyter:**
+
+- Asegurate estar dentro del repositorio: cd Ejercicio10Practica2
+
+- Ejecuta el siguiente comando para iniciar Jupyter: jupyter notebook
+
+- En la interfaz de Jupyter, navega hasta la carpeta notebooks y abre el archivo Ej10.ipynb.
+
+**Para abrir y ejecutar un archivo .ipynb en Visual Studio Code, sigue estos pasos:**
 
 - Instalar VS Code (si no lo tienes) desde https://code.visualstudio.com/.
 
