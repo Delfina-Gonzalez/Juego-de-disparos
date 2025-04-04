@@ -10,7 +10,7 @@ En este repositorio se encuentran los siguientes documentos:
 
 ## >>>>> Para ejecutar este proyecto, sigue los siguientes pasos:
 
-- Clona el repositorio: git clone https://github.com/delfinaG123/Ejercicio10Practica2.git
+- Clona el repositorio: git clone https://github.com/Delfina-Gonzalez/Ejercicio10Practica2
 
 - Accede al directorio del proyecto: cd Ejercicio10Practica2
 
@@ -24,12 +24,22 @@ En este repositorio se encuentran los siguientes documentos:
 
 ## >>>>> Pasos para abrir el Notebook
 
-Para abrir el notebook Ej10.ipynb, sigue estos pasos:
+Para abrir y ejecutar un archivo .ipynb en Visual Studio Code, sigue estos pasos:
 
-- Accede al directorio del proyecto: cd Ejercicio10Practica2
+- Instalar VS Code (si no lo tienes) desde https://code.visualstudio.com/.
 
-- Activa el entorno virtual (si lo creaste): source venv/bin/activate  # En Windows: venv\Scripts\activate 
+- Instalar las extensiones necesarias: Abre VS Code y presiona Ctrl + Shift + X (o Cmd + Shift + X en macOS). Busca e instala las extensiones.
 
-- Inicia Jupyter Notebook: jupyter notebook
+- Instalar Jupyter en tu sistema (si no está instalado): pip install notebook jupyter
 
-- Abre el archivo Ej10.ipynb desde la interfaz web de Jupyter.
+- Abrir el archivo .ipynb: Abre VS Code. Usa Ctrl + O (o Cmd + O en macOS) y selecciona el archivo .ipynb.
+
+VS Code lo abrirá en modo interactivo.
+
+- Seleccionar un intérprete de Python (si lo solicita VS Code): Elige el entorno virtual si lo estás usando.
+
+- Ejecutar las celdas del Notebook haciendo clic en el botón ▶️(play) de cada celda.
+
+Si el botón de "Ejecutar" no aparece en las celdas, ejecuta: pip install ipykernel
+
+Luego, reinicia VS Code y vuelve a abrir el archivo .ipynb.
