@@ -1,11 +1,9 @@
 # Valor de los puntajes
 points = {'kills': 3, 'assists': 1, 'deaths': -1}
 
-# Diccionario para guardar los puntajes acumulados de cada jugador
-player_scores = {}
 
 # Función para procesar cada ronda y calcular los puntajes
-def calculate_round_scores(round):
+def calculate_round_scores(round, player_scores ):
 
     # Creamos un diccionario para guardar los puntajes acumulados de la ronda para MVP
     round_results = {}
