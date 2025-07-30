@@ -39,10 +39,14 @@ rounds = [
 }
 ]
 
+# Diccionario para guardar los puntajes acumulados de cada jugador
+player_scores = {}
+
+
 # Simulamos las rondas e imprimimos los resultados parciales
 for i, round in enumerate(rounds):
     print(f"Ronda {i + 1}")
-    calculate_round_scores(round)
+    calculate_round_scores(round, player_scores )
 
 # Imprimos el ranking final
 print("Ranking final:")
@@ -56,5 +60,6 @@ sorted_players = sorted(player_scores.items(), key=lambda x: x[1]['score_total']
 # Iterar sobre los jugadores ordenados y mostrar la información
 for player, stats in sorted_players:
     print(f"{player.ljust(10)} {str(stats['total_kills']).ljust(6)} {str(stats['total_asist']).ljust(6)} {str(stats['total_deaths']).ljust(7)} {str(stats['score_total']).ljust(6)} {str(stats['mvp_count']).ljust(6)}")
+
 
 
